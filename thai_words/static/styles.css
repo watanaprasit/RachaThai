@@ -1,0 +1,30 @@
+.logo-container {
+    text-align: center;
+}
+.logo {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+.logo-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Center the entire content of the body */
+body {
+    text-align: center;  /* Centers text and inline elements */
+}
+
+/* Center the ordered list */
+ol {
+    display: inline-block; /* Makes the list behave like a block element, but only takes up as much width as needed */
+    padding-left: 0;  /* Remove default left padding */
+}
+
+/* Style the individual list items */
+li {
+    margin: 10px 0;  /* Adds space between each list item */
+    font-size: 18px;  /* Adjust the font size */
+}

@@ -1,0 +1,354 @@
+[
+    {
+        "Ranking": 1,
+        "Letter": "ก",
+        "Thai Word": "ก ไก่",
+        "RTGS": "ko kai",
+        "Meaning": "chicken",
+        "Emoji": "🐔"
+    },
+    {
+        "Ranking": 2,
+        "Letter": "ข",
+        "Thai Word": "ข ไข่",
+        "RTGS": "kho khai",
+        "Meaning": "egg",
+        "Emoji": "🪺"
+    },
+    {
+        "Ranking": 3,
+        "Letter": "ฃ",
+        "Thai Word": "ฃ ขวด",
+        "RTGS": "kho khuat",
+        "Meaning": "bottle",
+        "Emoji": "🍼"
+    },
+    {
+        "Ranking": 4,
+        "Letter": "ค",
+        "Thai Word": "ค ควาย",
+        "RTGS": "kho khwai",
+        "Meaning": "water buffalo",
+        "Emoji": "🐃"
+    },
+    {
+        "Ranking": 5,
+        "Letter": "ฅ",
+        "Thai Word": "ฅ คน",
+        "RTGS": "kho khon",
+        "Meaning": "person",
+        "Emoji": "🧑"
+    },
+    {
+        "Ranking": 6,
+        "Letter": "ฆ",
+        "Thai Word": "ฆ ระฆัง",
+        "RTGS": "kho ra-khang",
+        "Meaning": "bell",
+        "Emoji": "🫑"
+    },
+    {
+        "Ranking": 7,
+        "Letter": "ง",
+        "Thai Word": "ง งู",
+        "RTGS": "ngo ngu",
+        "Meaning": "snake",
+        "Emoji": "🐍"
+    },
+    {
+        "Ranking": 8,
+        "Letter": "จ",
+        "Thai Word": "จ จาน",
+        "RTGS": "jo jan",
+        "Meaning": "plate",
+        "Emoji": "🍽️"
+    },
+    {
+        "Ranking": 9,
+        "Letter": "ฉ",
+        "Thai Word": "ฉ ฉิ่ง",
+        "RTGS": "cho ching",
+        "Meaning": "cymbals",
+        "Emoji": "🎼"
+    },
+    {
+        "Ranking": 10,
+        "Letter": "ช",
+        "Thai Word": "ช ช้าง",
+        "RTGS": "cho chang",
+        "Meaning": "elephant",
+        "Emoji": "🐘"
+    },
+    {
+        "Ranking": 11,
+        "Letter": "ซ",
+        "Thai Word": "ซ โซ่",
+        "RTGS": "so so",
+        "Meaning": "chain",
+        "Emoji": "⛓️"
+    },
+    {
+        "Ranking": 12,
+        "Letter": "ฌ",
+        "Thai Word": "ฌ เฌอ",
+        "RTGS": "cho choe",
+        "Meaning": "tree",
+        "Emoji": "🌲"
+    },
+    {
+        "Ranking": 13,
+        "Letter": "ญ",
+        "Thai Word": "ญ หญิง",
+        "RTGS": "yo ying",
+        "Meaning": "woman",
+        "Emoji": "🧔‍♀️"
+    },
+    {
+        "Ranking": 14,
+        "Letter": "ฎ",
+        "Thai Word": "ฎ ชฎา",
+        "RTGS": "do cha-da",
+        "Meaning": "headdress",
+        "Emoji": "🤠"
+    },
+    {
+        "Ranking": 15,
+        "Letter": "ฏ",
+        "Thai Word": "ฏ ปฏัก",
+        "RTGS": "to pa-tak",
+        "Meaning": "goad, javelin",
+        "Emoji": "🍽️"
+    },
+    {
+        "Ranking": 16,
+        "Letter": "ฐ",
+        "Thai Word": "ฐ ฐาน",
+        "RTGS": "tho than",
+        "Meaning": "pedestal",
+        "Emoji": "🧍"
+    },
+    {
+        "Ranking": 17,
+        "Letter": "ฑ",
+        "Thai Word": "ฑ มณโฑ",
+        "RTGS": "tho montho",
+        "Meaning": "Montho",
+        "Emoji": "😶‍🌫️"
+    },
+    {
+        "Ranking": 18,
+        "Letter": "ฒ",
+        "Thai Word": "ฒ ผู้เฒ่า",
+        "RTGS": "tho phu-thao",
+        "Meaning": "elder",
+        "Emoji": "🥶"
+    },
+    {
+        "Ranking": 19,
+        "Letter": "ณ",
+        "Thai Word": "ณ เณร",
+        "RTGS": "no nen",
+        "Meaning": "samanera",
+        "Emoji": "🙈"
+    },
+    {
+        "Ranking": 20,
+        "Letter": "ด",
+        "Thai Word": "ด เด็ก",
+        "RTGS": "do dek",
+        "Meaning": "child",
+        "Emoji": "🧒"
+    },
+    {
+        "Ranking": 21,
+        "Letter": "ต",
+        "Thai Word": "ต เต่า",
+        "RTGS": "to tao",
+        "Meaning": "turtle",
+        "Emoji": "🐢"
+    },
+    {
+        "Ranking": 22,
+        "Letter": "ถ",
+        "Thai Word": "ถ ถุง",
+        "RTGS": "tho thung",
+        "Meaning": "sack",
+        "Emoji": "🥖"
+    },
+    {
+        "Ranking": 23,
+        "Letter": "ท",
+        "Thai Word": "ท ทหาร",
+        "RTGS": "tho thahan",
+        "Meaning": "soldier",
+        "Emoji": "🪖"
+    },
+    {
+        "Ranking": 24,
+        "Letter": "ธ",
+        "Thai Word": "ธ ธง",
+        "RTGS": "tho thong",
+        "Meaning": "flag",
+        "Emoji": "⛳"
+    },
+    {
+        "Ranking": 25,
+        "Letter": "น",
+        "Thai Word": "น หนู",
+        "RTGS": "no nu",
+        "Meaning": "mouse",
+        "Emoji": "🐭"
+    },
+    {
+        "Ranking": 26,
+        "Letter": "บ",
+        "Thai Word": "บ ใบไม้",
+        "RTGS": "bo baimai",
+        "Meaning": "leaf",
+        "Emoji": "🍀"
+    },
+    {
+        "Ranking": 27,
+        "Letter": "ป",
+        "Thai Word": "ป ปลา",
+        "RTGS": "po pla",
+        "Meaning": "fish",
+        "Emoji": "🐟"
+    },
+    {
+        "Ranking": 28,
+        "Letter": "ผ",
+        "Thai Word": "ผ ผึ้ง",
+        "RTGS": "pho phueng",
+        "Meaning": "bee",
+        "Emoji": "🐝"
+    },
+    {
+        "Ranking": 29,
+        "Letter": "ฝ",
+        "Thai Word": "ฝ ฝา",
+        "RTGS": "fo fa",
+        "Meaning": "lid",
+        "Emoji": "🛝"
+    },
+    {
+        "Ranking": 30,
+        "Letter": "พ",
+        "Thai Word": "พ พาน",
+        "RTGS": "pho phan",
+        "Meaning": "phan",
+        "Emoji": "🐘"
+    },
+    {
+        "Ranking": 31,
+        "Letter": "ฟ",
+        "Thai Word": "ฟ ฟัน",
+        "RTGS": "fo fan",
+        "Meaning": "teeth",
+        "Emoji": "🦷"
+    },
+    {
+        "Ranking": 32,
+        "Letter": "ภ",
+        "Thai Word": "ภ สำเภา",
+        "RTGS": "pho sam-phao",
+        "Meaning": "sailboat",
+        "Emoji": "⛵"
+    },
+    {
+        "Ranking": 33,
+        "Letter": "ม",
+        "Thai Word": "ม ม้า",
+        "RTGS": "mo ma",
+        "Meaning": "horse",
+        "Emoji": "🏇"
+    },
+    {
+        "Ranking": 34,
+        "Letter": "ย",
+        "Thai Word": "ย ยักษ์",
+        "RTGS": "yo yak",
+        "Meaning": "giant",
+        "Emoji": "👾"
+    },
+    {
+        "Ranking": 35,
+        "Letter": "ร",
+        "Thai Word": "ร เรือ",
+        "RTGS": "ro ruea",
+        "Meaning": "boat",
+        "Emoji": "🚣"
+    },
+    {
+        "Ranking": 36,
+        "Letter": "ล",
+        "Thai Word": "ล ลิง",
+        "RTGS": "lo ling",
+        "Meaning": "monkey",
+        "Emoji": "🙈"
+    },
+    {
+        "Ranking": 37,
+        "Letter": "ว",
+        "Thai Word": "ว แหวน",
+        "RTGS": "wo waen",
+        "Meaning": "ring",
+        "Emoji": "😋"
+    },
+    {
+        "Ranking": 38,
+        "Letter": "ศ",
+        "Thai Word": "ศ ศาลา",
+        "RTGS": "so sala",
+        "Meaning": "pavilion Sala",
+        "Emoji": "🛕"
+    },
+    {
+        "Ranking": 39,
+        "Letter": "ษ",
+        "Thai Word": "ษ ฤๅษี",
+        "RTGS": "so rue-si",
+        "Meaning": "hermit",
+        "Emoji": "🦞"
+    },
+    {
+        "Ranking": 40,
+        "Letter": "ส",
+        "Thai Word": "ส เสือ",
+        "RTGS": "so suea",
+        "Meaning": "tiger",
+        "Emoji": "🐯"
+    },
+    {
+        "Ranking": 41,
+        "Letter": "ห",
+        "Thai Word": "ห หีบ",
+        "RTGS": "ho hip",
+        "Meaning": "box",
+        "Emoji": "🍱"
+    },
+    {
+        "Ranking": 42,
+        "Letter": "ฬ",
+        "Thai Word": "ฬ จุฬา",
+        "RTGS": "lo chu-la",
+        "Meaning": "kite",
+        "Emoji": "🪁"
+    },
+    {
+        "Ranking": 43,
+        "Letter": "อ",
+        "Thai Word": "อ อ่าง",
+        "RTGS": "o ang",
+        "Meaning": "basin",
+        "Emoji": "🥣"
+    },
+    {
+        "Ranking": 44,
+        "Letter": "ฮ",
+        "Thai Word": "ฮ นกฮูก",
+        "RTGS": "ho nok-huk",
+        "Meaning": "owl",
+        "Emoji": "🦉"
+    }
+]

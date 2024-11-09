@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RachaThai</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header class="logo-container">
+        <img src="{% static 'RachaThaiLogo.png' %}" alt="Logo" class="logo">
+        
+        <div class="logo-title">RachaThai</div>
+    </header>
+
+    <main>
+        <h1>Thai Consonants - 44</h1>
+        <ol>
+            {% for consonant in consonants%}
+                <li>{{ consonant.letter }} - {{ consonant.thai_word }} - ({{ consonant.rtgs }}) -  ({{ consonant.emoji }})</li>
+            {% endfor %}
+        </ol>
+    </main>
+</body>
+</html>
