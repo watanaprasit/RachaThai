@@ -1,0 +1,10 @@
+{% extends '_base.html' %}
+
+{% block content %}
+    <h1>Thai Vowels - Long First - 8</h1>
+    <ol>
+        {% for vowel in vowels %}
+            <li>{{ vowel.letter }} - {{ vowel.thai_word }} - ({{ vowel.rtgs }})</li>
+        {% endfor %}
+    </ol>
+{% endblock %}

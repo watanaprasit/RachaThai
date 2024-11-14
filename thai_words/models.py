@@ -13,3 +13,17 @@ class ThaiConsonant(models.Model):
 
     class Meta:
         ordering = ['ranking']  # Ensure the objects are ordered by ranking
+
+class ThaiVowel(models.Model):
+    long_ranking = models.IntegerField()
+    letter = models.CharField(max_length=10)  # Adjusted for longer vowel characters
+    thai_word = models.CharField(max_length=255)
+    rtgs = models.CharField(max_length=255)
+    ipa = models.CharField(max_length=50)
+    pronunciation = models.CharField(max_length=255)
+
+    def __str__(self):
+        return f"{self.letter} - {self.thai_word}"
+
+    class Meta:
+        ordering = ['long_ranking']  # Ensure the objects are ordered by ranking

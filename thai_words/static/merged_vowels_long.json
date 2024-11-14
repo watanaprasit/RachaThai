@@ -1,0 +1,112 @@
+[
+    {
+        "long-ranking": 1,
+        "letter": "า",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ อา",
+        "rtgs": "sara-aa",
+        "ipa": "a",
+        "pronunciation": "aa (a in father)",
+        "svg": "../data/characters/vowel-long/vl-sara-aa.svg"
+    },
+    {
+        "long-ranking": 2,
+        "letter": "แ◌",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ แอ",
+        "rtgs": "sara-aae",
+        "ipa": "ɛ",
+        "pronunciation": "aae (a in ham)",
+        "svg": "../data/characters/vowel-long/vl-sara-aae.svg"
+    },
+    {
+        "long-ranking": 3,
+        "letter": "อ",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ ออ",
+        "rtgs": "sara-aaw",
+        "ipa": "ɔ",
+        "pronunciation": "aaw (aw in saw)",
+        "svg": "../data/characters/vowel-long/vl-sara-aaw.svg"
+    },
+    {
+        "long-ranking": 4,
+        "letter": "เ◌",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ เอ",
+        "rtgs": "sara-aeh",
+        "ipa": "e",
+        "pronunciation": "aeh (a in lame)",
+        "svg": "../data/characters/vowel-long/vl-sara-aeh.svg"
+    },
+    {
+        "long-ranking": 5,
+        "letter": "เอิ-",
+        "variant": [
+            [
+                "เ-อ"
+            ]
+        ],
+        "thai word": "สระ เออ",
+        "rtgs": "sara-eer",
+        "ipa": "ɤ",
+        "pronunciation": "eer (u in burn)",
+        "svg": "../data/characters/vowel-long/vl-sara-eer.svg"
+    },
+    {
+        "long-ranking": 6,
+        "letter": "โ--",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ โอ",
+        "rtgs": "sara-o",
+        "ipa": "o",
+        "pronunciation": "o (oa in go)",
+        "svg": "../data/characters/vowel-long/vl-sara-o.svg"
+    },
+    {
+        "long-ranking": 7,
+        "letter": "อี-",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ อี",
+        "rtgs": "sara-ee",
+        "ipa": "i",
+        "pronunciation": "ee (ee in see)",
+        "svg": "../data/characters/vowel-long/vl-sara-ee.svg"
+    },
+    {
+        "long-ranking": 8,
+        "letter": "อื-",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ อือ",
+        "rtgs": "sara-euu",
+        "ipa": "ɯ",
+        "pronunciation": "euu (french long u)",
+        "svg": "../data/characters/vowel-long/vl-sara-euu.svg"
+    },
+    {
+        "long-ranking": 9,
+        "letter": "อู-",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ อูุ",
+        "rtgs": "sara-uu",
+        "ipa": "u",
+        "pronunciation": "uu (oo in too)",
+        "svg": "../data/characters/vowel-long/vl-sara-uu.svg"
+    }
+]
