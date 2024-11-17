@@ -7,7 +7,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
         # Specify the correct path to your merged vowels long JSON file
-        json_file_path = '/Users/darylwatanaprasit/Desktop/thai_app/thai_words/static/merged_vowels_long.json'
+        json_file_path = '/Users/darylwatanaprasit/Desktop/thai_app/thai_words/static/merged_vowels_short.json'
         
         try:
             # Open and load the merged JSON data file

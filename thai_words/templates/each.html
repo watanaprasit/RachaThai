@@ -1,0 +1,32 @@
+{% extends '_base.html' %}
+
+{% block content %}
+    <!-- Clickable Letter to Play Audio -->
+    <h3>Click on letter</h3>
+    <p>
+        <span class="letter" id="consonantLetter" style="font-size: 4rem; cursor: pointer;" onclick="playAudio()">
+            {{ consonant.letter }}
+        </span>
+    </p>
+    <h1>{{ consonant.thai_word }} - {{ consonant.emoji }}</h1>
+    <p>How to say: {{ consonant.rtgs }}</p>
+    <p>Meaning: {{ consonant.meaning }}</p>
+
+
+
+    <!-- Hidden Audio element -->
+    <audio id="audioPronunciation">
+        <source src="{{ consonant.audio_pronunciation.url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        // Function to play audio when the consonant letter is clicked
+        function playAudio() {
+            var audio = document.getElementById("audioPronunciation");
+            audio.play();  // Play the audio
+        }
+    </script>
+
+{% endblock %}
+

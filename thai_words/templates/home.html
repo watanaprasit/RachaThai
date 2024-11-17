@@ -4,7 +4,12 @@
     <h1>Thai Consonants - 44</h1>
     <ol>
         {% for consonant in consonants %}
-            <li>{{ consonant.letter }} - {{ consonant.thai_word }} - ({{ consonant.rtgs }}) -  ({{ consonant.emoji }})</li>
+            <li>
+                <a href="{% url 'each_consonant' consonant.letter %}">
+                    {{ consonant.letter }} - {{ consonant.thai_word }} - ({{ consonant.rtgs }}) -  ({{ consonant.emoji }})
+                </a>
+            </li>
         {% endfor %}
     </ol>
 {% endblock %}
+

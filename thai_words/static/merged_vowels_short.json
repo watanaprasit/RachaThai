@@ -1,0 +1,114 @@
+[
+    {
+        "long-ranking": 10,
+        "letter": "อั-",
+        "variant": [
+            [
+                "-รร-",
+                "-ะ"
+            ]
+        ],
+        "thai word": "สระ อะ",
+        "rtgs": "Sara a",
+        "ipa": "a",
+        "pronunciation": "a"
+    },
+    {
+        "long-ranking": 11,
+        "letter": "แอ็-",
+        "variant": [
+            [
+                "แ--",
+                "แ-ะ"
+            ]
+        ],
+        "thai word": "สระ แอะ",
+        "rtgs": "Sara ae",
+        "ipa": "ɛ",
+        "pronunciation": "ae (a in at)"
+    },
+    {
+        "long-ranking": 12,
+        "letter": "อ็อ-",
+        "variant": [
+            [
+                "เ-าะ"
+            ]
+        ],
+        "thai word": "สระ เอาะ",
+        "rtgs": "Sara aw",
+        "ipa": "ɔ",
+        "pronunciation": "o (o in not)"
+    },
+    {
+        "long-ranking": 13,
+        "letter": "เอ็◌",
+        "variant": [
+            [
+                "เ--",
+                "เ◌ะ"
+            ]
+        ],
+        "thai word": "สระ เอะ",
+        "rtgs": "Sara e",
+        "ipa": "e",
+        "pronunciation": "e (e in neck)"
+    },
+    {
+        "long-ranking": 14,
+        "letter": "เอิ-",
+        "variant": [
+            [
+                "เ-อะ"
+            ]
+        ],
+        "thai word": "สระ เออะ",
+        "rtgs": "Sara er",
+        "ipa": "ɤ",
+        "pronunciation": "er (e in the)"
+    },
+    {
+        "long-ranking": 15,
+        "letter": "โ◌ะ",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ โอะ",
+        "rtgs": "Sara o",
+        "ipa": "o",
+        "pronunciation": "o (oa in boat)"
+    },
+    {
+        "long-ranking": 16,
+        "letter": "อิ-",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ อิ",
+        "rtgs": "Sara i",
+        "ipa": "i",
+        "pronunciation": "i"
+    },
+    {
+        "long-ranking": 17,
+        "letter": "อึ-",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ อึ",
+        "rtgs": "Sara ue",
+        "ipa": "ɯ",
+        "pronunciation": "ue (french u)"
+    },
+    {
+        "long-ranking": 18,
+        "letter": "อุ-",
+        "variant": [
+            []
+        ],
+        "thai word": "สระ อุ",
+        "rtgs": "Sara u",
+        "ipa": "u",
+        "pronunciation": "u (oo in look)"
+    }
+]

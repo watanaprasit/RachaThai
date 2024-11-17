@@ -2,12 +2,13 @@ from django.db import models
 
 class ThaiConsonant(models.Model):
     ranking = models.IntegerField()
-    letter = models.CharField(max_length=1)  # Assuming single character
+    letter = models.CharField(max_length=1) 
     thai_word = models.CharField(max_length=255)
     rtgs = models.CharField(max_length=255)
     meaning = models.CharField(max_length=255)
-    emoji = models.CharField(max_length=5, blank=True, null=True)  # Store emoji as text (max 5 chars for the emoji)
-
+    emoji = models.CharField(max_length=5, blank=True, null=True) 
+    audio_pronunciation = models.FileField(upload_to='', blank=True, null=True)
+ 
     def __str__(self):
         return f"{self.letter} - {self.meaning}"
 

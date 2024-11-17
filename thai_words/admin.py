@@ -3,7 +3,7 @@ from .models import ThaiConsonant, ThaiVowel
 
 # Define the custom admin interface
 class ThaiConsonantAdmin(admin.ModelAdmin):
-    list_display = ['ranking', 'letter', 'thai_word', 'rtgs', 'meaning', 'emoji']
+    list_display = ['ranking', 'letter', 'thai_word', 'rtgs', 'meaning', 'emoji', 'audio_pronunciation']
     search_fields = ['letter', 'thai_word', 'meaning']
     
 class ThaiVowelAdmin(admin.ModelAdmin):

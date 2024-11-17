@@ -9,9 +9,21 @@
     <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
-    <header class="logo-container">
-        <img src="{% static 'RachaThaiLogo.png' %}" alt="Logo" class="logo">
-        <div class="logo-title">RachaThai</div>
+    <header class="header-container">
+        <!-- Navigation links above the logo -->
+        <nav class="top-nav">
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'vowels' %}">Vowels</a></li>
+                <li><a href="{% url 'consonant-sounds' %}">Clickable Sounds</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Logo and title below the navigation -->
+        <div class="logo-container">
+            <img src="{% static 'RachaThaiLogo.png' %}" alt="Logo" class="logo">
+            <div class="logo-title">RachaThai</div>
+        </div>
     </header>
 
     <!-- The content of the page will go here -->
@@ -20,3 +32,6 @@
     </main>
 </body>
 </html>
+
+
+

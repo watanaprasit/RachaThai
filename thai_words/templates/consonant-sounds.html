@@ -1,0 +1,29 @@
+{% extends '_base.html' %}
+
+{% block content %}
+    <h1>Consonants with Clickable Sounds</h1>
+    <div class="consonant-list">
+        {% for consonant in consonants %}
+            <div class="consonant-item">
+                <!-- Clickable letter -->
+                <span class="letter" 
+                      data-audio="{{ consonant.audio_pronunciation.url }}">
+                    {{ consonant.letter }}
+                </span>
+            </div>
+        {% endfor %}
+    </div>
+
+    <script>
+        // JavaScript to play audio when consonant letter is clicked
+        document.querySelectorAll('.letter').forEach(function(letterElement) {
+            letterElement.addEventListener('click', function() {
+                var audioUrl = letterElement.getAttribute('data-audio');
+                var audio = new Audio(audioUrl);
+                audio.play();
+            });
+        });
+    </script>
+{% endblock %}
+
+
