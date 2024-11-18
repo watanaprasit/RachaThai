@@ -1,11 +1,14 @@
 /* Basic styling for the header and navigation */
 .header-container {
-    text-align: left;
+    display: flex;
+    flex-direction: column;  /* Stack logo and nav vertically */
     padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .top-nav {
-    margin-bottom: 10px;  /* Adds space between nav and logo */
+    margin-top: 10px;  /* Adds space between nav and logo */
 }
 
 .top-nav ul {
@@ -13,6 +16,8 @@
     padding: 0;
     margin: 0;
     display: flex;  /* Makes the list items display in a row */
+    justify-content: space-evenly;  /* Distribute links evenly */
+    width: 100%;
 }
 
 .top-nav li {
@@ -42,32 +47,166 @@
     margin-left: 10px;
 }
 
-.consonant-list {
+/* iPhone status bar */
+.iphone-status-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;  /* Height of the status bar */
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #333;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+}
+
+/* Left side (Clock) */
+.clock {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Right side (Date and Battery) */
+.status-right {
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.battery {
+    font-size: 12px;
+}
+
+
+
+/* Consonant Grid Layout */
+.consonant-list {
+    display: grid;  /* Use CSS grid for responsive layout */
+    grid-template-columns: repeat(3, 1fr);  /* 3 columns by default */
+    gap: 10px;  /* Space between grid items */
+    margin: 20px 0;
+    padding: 0 20px;
 }
 
 .consonant-item {
-    margin-right: 20px;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;  /* Background for each card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s;
+    height: 120px;  /* Adjust card height */
     text-align: center;
 }
 
 .letter {
-    font-size: 300px;  /* Make the letter much bigger */
-    font-weight: bold;  /* Optional: make the letter bold */
-    cursor: pointer;  /* Indicate that it's clickable */
-    transition: transform 0.2s ease-in-out;  /* Add smooth scale effect */
+    font-size: 4rem;  /* Adjust font size for letters */
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.letter:hover {
-    transform: scale(1.2);  /* Slightly increase the size on hover */
-    color: #007bff;  /* Optional: change color on hover */
+.consonant-item:hover {
+    transform: scale(1.1);  /* Slight scale effect on hover */
+    background: #007bff;  /* Background color change on hover */
 }
 
+.consonant-item:hover .letter {
+    color: white;  /* Change letter color on hover */
+}
 
+/* Audio styling */
 .audio audio {
     width: 100%;
 }
+
+/* Centering the iPhone container */
+.iphone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* iPhone styling */
+.iphone {
+    width: 375px;
+    height: 700px;
+    background: #f0f0f0;
+    border-radius: 36px;
+    border: 16px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+/* iPhone screen */
+.iphone-screen {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Make the content scrollable */
+    font-size: 16px; /* Default font size */
+}
+
+/* Scrollbar styling */
+.iphone-screen::-webkit-scrollbar {
+    width: 8px;
+}
+
+.iphone-screen::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+/* Adjust font size based on screen width for better responsiveness */
+@media (max-width: 768px) {
+    .iphone-screen {
+        font-size: 14px; /* Slightly smaller font on smaller screens */
+    }
+
+    /* 2 columns for consonant list */
+    .consonant-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .iphone-screen {
+        font-size: 12px; /* Even smaller font on very small screens */
+    }
+
+    /* 1 column for consonant list on very small screens */
+    .consonant-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Optional: Add an iPhone button (home button) */
+.iphone::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #333;
+}
+
 
 

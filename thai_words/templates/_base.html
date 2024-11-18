@@ -9,29 +9,53 @@
     <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
-    <header class="header-container">
-        <!-- Navigation links above the logo -->
-        <nav class="top-nav">
-            <ul>
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'vowels' %}">Vowels</a></li>
-                <li><a href="{% url 'consonant-sounds' %}">Clickable Sounds</a></li>
-            </ul>
-        </nav>
-        
-        <!-- Logo and title below the navigation -->
-        <div class="logo-container">
-            <img src="{% static 'RachaThaiLogo.png' %}" alt="Logo" class="logo">
-            <div class="logo-title">RachaThai</div>
-        </div>
-    </header>
+    <!-- Main content inside iPhone screen container -->
+    <main class="iphone-container">
+        <div class="iphone">
+            <div class="iphone-screen">
+                <!-- iPhone Status Bar -->
+                <div class="iphone-status-bar">
+                    <!-- Left side (Clock) -->
+                    <div class="clock">10:30</div>
+                    <!-- Right side (Battery) -->
+                    <div class="status-right">
+                        <div class="battery">
+                            <span>🔋 85%</span>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- The content of the page will go here -->
-    <main>
-        {% block content %}{% endblock %}
+                <!-- Header Section: Logo and Navigation -->
+                <header class="header-container">
+                    <!-- Logo and title -->
+                    <div class="logo-container">
+                        <img src="{% static 'RachaThaiLogo.png' %}" alt="Logo" class="logo">
+                        <div class="logo-title">RachaThai</div>
+                    </div>
+                    <!-- Navigation links -->
+                    <nav class="top-nav">
+                        <ul>
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="{% url 'vowels' %}">Vowels</a></li>
+                            <li><a href="{% url 'consonant-sounds' %}">Sounds</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <!-- Page-specific content -->
+                {% block content %}{% endblock %}
+            </div>
+        </div>
     </main>
 </body>
 </html>
+
+
+
+
+
+
+
 
 
 

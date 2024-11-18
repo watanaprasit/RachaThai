@@ -12,8 +12,6 @@
     <p>How to say: {{ consonant.rtgs }}</p>
     <p>Meaning: {{ consonant.meaning }}</p>
 
-
-
     <!-- Hidden Audio element -->
     <audio id="audioPronunciation">
         <source src="{{ consonant.audio_pronunciation.url }}" type="audio/mpeg">
@@ -27,6 +25,6 @@
             audio.play();  // Play the audio
         }
     </script>
-
 {% endblock %}
+
 
