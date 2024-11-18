@@ -1,0 +1,82 @@
+[
+    {
+        "word": "สวัสดี",
+        "rtgs": "sa-wat-dee",
+        "meaning": "Hello/Goodbye",
+        "notes": "Add 'ครับ' for males and 'ค่ะ' for females to be polite.",
+        "index": 1,
+        "mp3": " "
+    },
+    {
+        "word": "ขอบคุณ",
+        "rtgs": "khàwp khun",
+        "meaning": "Thank you",
+        "notes": "Add 'ครับ' or 'ค่ะ' to be polite.",
+        "index": 2,
+        "mp3": " "
+    },
+    {
+        "word": "ขอโทษ",
+        "rtgs": "khǎw-thôt",
+        "meaning": "Excuse me",
+        "notes": "Used to apologize or politely get someone’s attention.",
+        "index": 3,
+        "mp3": " "
+    },
+    {
+        "word": "ใช่",
+        "rtgs": "châi",
+        "meaning": "Yes",
+        "notes": "A simple affirmative.",
+        "index": 4,
+        "mp3": " "
+    },
+    {
+        "word": "ไม่ใช่",
+        "rtgs": "mâi châi",
+        "meaning": "No",
+        "notes": "Used to indicate disagreement or denial.",
+        "index": 5,
+        "mp3": " "
+    },
+    {
+        "word": "ได้",
+        "rtgs": "dâi",
+        "meaning": "Can/Okay",
+        "notes": "Used to express that something is possible or acceptable.",
+        "index": 6,
+        "mp3": " "
+    },
+    {
+        "word": "ไม่เป็นไร",
+        "rtgs": "mâi bpen rai",
+        "meaning": "You're welcome",
+        "notes": "Means 'don’t worry' or 'it’s okay'.",
+        "index": 7,
+        "mp3": " "
+    },
+    {
+        "word": "ช่วยด้วย",
+        "rtgs": "chûay dûay",
+        "meaning": "Help!",
+        "notes": "Useful in emergencies.",
+        "index": 8,
+        "mp3": " "
+    },
+    {
+        "word": "ราคาเท่าไหร่",
+        "rtgs": "raa-khaa thâo rài",
+        "meaning": "How much is this?",
+        "notes": "Essential for shopping.",
+        "index": 9,
+        "mp3": " "
+    },
+    {
+        "word": "ห้องน้ำ",
+        "rtgs": "hâwng nám",
+        "meaning": "Bathroom",
+        "notes": "Used to ask for the location of restrooms.",
+        "index": 10,
+        "mp3": " "
+    }
+]

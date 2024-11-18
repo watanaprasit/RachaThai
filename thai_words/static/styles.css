@@ -1,3 +1,80 @@
+/* Centering the iPhone container */
+.iphone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* iPhone styling */
+.iphone {
+    width: 375px;
+    height: 700px;
+    background: #f0f0f0;
+    border-radius: 36px;
+    border: 16px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+/* iPhone screen */
+.iphone-screen {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Make the content scrollable */
+    font-size: 16px; /* Default font size */
+}
+
+/* Scrollbar styling */
+.iphone-screen::-webkit-scrollbar {
+    width: 8px;
+}
+
+.iphone-screen::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+/* Adjust font size based on screen width for better responsiveness */
+@media (max-width: 768px) {
+    .iphone-screen {
+        font-size: 14px; /* Slightly smaller font on smaller screens */
+    }
+
+    /* 2 columns for consonant list */
+    .consonant-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .iphone-screen {
+        font-size: 12px; /* Even smaller font on very small screens */
+    }
+
+    /* 1 column for consonant list on very small screens */
+    .consonant-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Optional: Add an iPhone button (home button) */
+.iphone::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #333;
+}
+
 /* Basic styling for the header and navigation */
 .header-container {
     display: flex;
@@ -131,82 +208,46 @@
     width: 100%;
 }
 
-/* Centering the iPhone container */
-.iphone-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+/* Style the word card */
+body .word-item {
+    display: flex;  /* Use flexbox for layout */
+    justify-content: flex-start;
+    align-items: center;  /* Vertically center the content */
+    padding: 15px;  /* Add padding inside the card */
+    margin: 10px 0;  /* Add margin between cards */
+    border: 1px solid #ddd;  /* Border for the card */
+    border-radius: 8px;  /* Rounded corners for the card */
+    background-color: #f9f9f9;  /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    cursor: pointer;  /* Show pointer cursor on hover */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;  /* Smooth hover effects */
 }
 
-/* iPhone styling */
-.iphone {
-    width: 375px;
-    height: 700px;
-    background: #f0f0f0;
-    border-radius: 36px;
-    border: 16px solid #333;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
-    overflow: hidden;
+/* Change card appearance on hover */
+.word-item:hover {
+    transform: translateY(-5px);  /* Lift the card up slightly */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
 }
 
-/* iPhone screen */
-.iphone-screen {
-    width: 100%;
-    height: 100%;
-    background: white;
-    padding: 20px;
-    box-sizing: border-box;
-    overflow-y: auto; /* Make the content scrollable */
-    font-size: 16px; /* Default font size */
+/* Style for the word text */
+.word-item a {
+    font-size: 18px;  /* Adjust font size */
+    color: #333;  /* Dark text color */
+    text-decoration: none;  /* Remove underlines from links */
+    width: 100%;  /* Make the link take up the full width of the card */
+    display: flex;  /* Flexbox to align content */
+    flex-direction: column;  /* Stack content vertically */
+    justify-content: flex-start;  /* Align text and button to the top */
+    align-items: flex-start;  /* Align items to the left */
 }
 
-/* Scrollbar styling */
-.iphone-screen::-webkit-scrollbar {
-    width: 8px;
+/* Optional: Style for pronunciation or notes */
+.word-item span {
+    font-size: 14px;  /* Smaller font size for secondary text */
+    color: #555;  /* Lighter color for additional information */
 }
 
-.iphone-screen::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 10px;
-}
 
-/* Adjust font size based on screen width for better responsiveness */
-@media (max-width: 768px) {
-    .iphone-screen {
-        font-size: 14px; /* Slightly smaller font on smaller screens */
-    }
-
-    /* 2 columns for consonant list */
-    .consonant-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .iphone-screen {
-        font-size: 12px; /* Even smaller font on very small screens */
-    }
-
-    /* 1 column for consonant list on very small screens */
-    .consonant-list {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-/* Optional: Add an iPhone button (home button) */
-.iphone::before {
-    content: "";
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #333;
-}
-
+  
 
 

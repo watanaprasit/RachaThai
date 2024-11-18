@@ -6,4 +6,5 @@ urlpatterns = [
     path('vowels', views.vowels, name='vowels'),  
     path('consonant-sounds', views.consonant_sounds, name='consonant-sounds'),
     path('consonant/<str:letter>/', views.each_consonant, name='each_consonant'),  
+    path('ten-words/', views.ten_words, name='ten_words'),  
 ]

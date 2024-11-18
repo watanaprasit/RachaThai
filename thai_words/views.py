@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import ThaiConsonant, ThaiVowel
+from .models import ThaiConsonant, ThaiVowel, TenWords
 
 # Create your views here.
 def home(request):
@@ -17,3 +17,7 @@ def consonant_sounds(request):
 def each_consonant(request, letter):
     consonant = get_object_or_404(ThaiConsonant, letter=letter)
     return render(request, 'each.html', {'consonant': consonant})
+
+def ten_words(request):
+    words = TenWords.objects.all().order_by('index')  
+    return render(request, 'ten_words.html', {'words': words})

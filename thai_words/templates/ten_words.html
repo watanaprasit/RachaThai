@@ -1,0 +1,36 @@
+{% extends "_base.html" %}
+
+{% block content %}
+    <h1 style="color: red;">10 Key Thai Words</h1>
+    <ol>
+        {% for word in words %}
+            <li class="word-item" data-audio="{{ word.mp3.url }}">
+                <a href="javascript:void(0)">
+                    <span class="word-details">
+                        {{ word.meaning }} - {{ word.rtgs }} - {{ word.word }} - {{ word.notes }}
+                    </span>               
+                </a>
+            </li>
+        {% endfor %}
+    </ol>
+
+    <script>
+        // JavaScript to play audio when the list item is clicked
+        document.querySelectorAll('.word-item').forEach(function(item) {
+            item.addEventListener('click', function() {
+                var audioUrl = item.getAttribute('data-audio');
+                
+                // If there's an audio file linked
+                if (audioUrl) {
+                    var audio = new Audio(audioUrl); // Create new Audio element
+                    audio.play(); // Play the audio
+                } else {
+                    alert('No audio available for this word.');
+                }
+            });
+        });
+    </script>
+{% endblock %}
+
+
+
