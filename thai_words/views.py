@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from .models import ThaiConsonant, ThaiVowel, TenWords
+from django.http import JsonResponse
 
 # Create your views here.
 def home(request):
@@ -21,3 +22,8 @@ def each_consonant(request, letter):
 def ten_words(request):
     words = TenWords.objects.all().order_by('index')  
     return render(request, 'ten_words.html', {'words': words})
+
+#Json Api for React Frontend
+def consonant_list(request):
+    consonants = ThaiConsonant.objects.all().order_by('ranking').values('letter', 'thai_word', 'rtgs', 'emoji')
+    return JsonResponse(list(consonants), safe=False)

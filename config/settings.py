@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     
     #local apps
     'thai_words',
+    
+    #CORS
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -50,6 +53,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    #CORS
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -128,3 +134,9 @@ MEDIA_ROOT = BASE_DIR / 'thai_words/media'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#CORS
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # React app's URL
+]
